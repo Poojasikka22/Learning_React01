@@ -2,6 +2,10 @@ import Title from "./Front.jsx";
 import {CORE_CONCEPTS} from "./data.js";
 import {CoreConcepts} from "./Components/CoreConcepts";
 import DataDetails from "./Components/DataDetails";
+<<<<<<< HEAD
+=======
+import Button from './Components/Button.jsx';
+>>>>>>> fdb1c43 (Successful)
 
 function App() {
   return (
@@ -40,8 +44,13 @@ function App() {
           title = { CORE_CONCEPTS[2].title}
           image = {CORE_CONCEPTS[2].image}
           description = {CORE_CONCEPTS[2].description}
+<<<<<<< HEAD
 
           />
+=======
+          />
+          <Button> Add new Item </Button>
+>>>>>>> fdb1c43 (Successful)
       </ul>
       </section>
       </main>
